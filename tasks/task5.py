@@ -3,13 +3,11 @@
 def solve():
 # Ниже пишите решение задачи
     a, b, c = map(str, input().split())
-    sim1 = a
-    sim2 = b
-    sim3 = c
-    code1 = ord(a)
-    code2 = ord(b)
-    code3 = ord(c)
-    print("Код символа " + str(sim1) + " равен " + str(code1) + "\n" + "Код символа " + str(sim2) + " равен " + str(code2) + "\n" + "Код символа " + str(sim3) + " равен " + str(code3))
+    ord1=(ord(a))
+    ord2=(ord(b))
+    ord3=(ord(c))
+    print("Код символа " + str(a) + " равен " + str(ord1) + '\n' + "Код символа " + str(b) + " равен " + str(ord2) + '\n'+ "Код символа " + str(c) + " равен " + str(ord3))
+   
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()
